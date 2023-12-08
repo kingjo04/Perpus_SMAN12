@@ -157,7 +157,7 @@
                 <strong>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="Admin/Home.php" style="color: white;">Beranda</a>
+                            <a class="nav-link" href="Home.php" style="color: white;">Beranda</a>
                         </li>
 
                         <li class="nav-item">
