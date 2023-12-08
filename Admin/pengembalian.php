@@ -1,26 +1,3 @@
-<?php
-session_start();
-
-// Cek jika pengguna tidak login atau bukan admin
-if (!isset($_SESSION['username']) || $_SESSION['role'] != 'admin') {
-    header('Location: login.php');
-    exit();
-}
-
-include 'koneksi.php';
-
-// Fetch data from the "peminjaman" table
-$queryPengembalian = "SELECT * FROM pengembalian";
-$resultPengembalian = mysqli_query($conn, $queryPengembalian);
-
-// Check if the query was successful
-if (!$resultPengembalian) {
-    die("Query failed: " . mysqli_error($conn));
-}
-
-// Close the database connection
-mysqli_close($conn);
-?>
 
 <!DOCTYPE html>
 <html lang="en">
