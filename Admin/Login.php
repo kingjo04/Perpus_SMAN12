@@ -97,7 +97,7 @@
 
     <header class="custom-header" style="box-shadow: 0px 12px 4px rgba(0, 0, 0, 0.25); background-color: #9EDDFF;">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="../Home.php" style="display: flexbox; margin-left: 11%; scale: 0.7;">
+            <a class="navbar-brand" href="Home.php" style="display: flexbox; margin-left: 11%; scale: 0.7;">
                 <img src="assets/dashboard/logo.png" alt="logo" class="logosma">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -122,7 +122,6 @@
 
     <div class="container-welcome">
         <div class="text-left">
-                    <div class="text-left">
             <div class="container-login">
                 <h1>Selamat Datang, Silahkan Masuk !</h1>
                 <form action="dashboard.php" method="post">
