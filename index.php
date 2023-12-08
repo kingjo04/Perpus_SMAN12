@@ -146,7 +146,7 @@
         <nav class="navbar navbar-expand-lg navbar-light">
             <!-- Navbar content goes here -->
             <a class="navbar-brand" href="#" style="display: flexbox; margin-left: 11%; scale: 0.7;">
-                <img src="assets/dashboard/logo.png" alt="logo" class="logosma">
+                <img src="admin/assets/dashboard/logo.png" alt="logo" class="logosma">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,7 +161,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" href="Login.php">Masuk</a>
+                            <a class="nav-link" href="Admin/Login.php">Masuk</a>
                         </li>
                     </ul>
                 </strong>
@@ -176,7 +176,7 @@
                     12</span><br>Bandar Lampung</h2>
         </div>
         <div class="gambarbuku-container">
-            <img src="assets/global/buku.png" alt="buku" class="img-fluid gambarbuku">
+            <img src="admin/assets/global/buku.png" alt="buku" class="img-fluid gambarbuku">
         </div>
     </div>
 
