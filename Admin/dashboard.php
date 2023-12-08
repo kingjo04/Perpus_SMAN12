@@ -1,11 +1,6 @@
 <?php
 session_start();
 
-// Cek jika pengguna tidak login atau bukan admin
-if (!isset($_SESSION['username']) || $_SESSION['role'] != 'admin') {
-    header('Location: user/homepagelogin.php');
-    exit();
-}
 
 
 include 'koneksi.php';
