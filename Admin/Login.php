@@ -122,23 +122,17 @@
 
     <div class="container-welcome">
         <div class="text-left">
+                    <div class="text-left">
             <div class="container-login">
                 <h1>Selamat Datang, Silahkan Masuk !</h1>
-                <form action="../BackEnd/login_process.php" method="post">
-                    <label for="username"></label>
-                    <input type="text" id="username" name="username" required placeholder="Username">
+                <form action="dashboard.php" method="post">
+                    <input type="text" id="username" name="username" placeholder="Username" required>
 
-                    <label for="password"></label>
-                    <input type="password" id="password" name="password" required placeholder="Password">
+                    <input type="password" id="password" name="password" placeholder="Password" required>
 
                     <button type="submit" style="color: #FFFFFF; font-weight: bold;">Masuk</button>
-
-                    <?php
-                    if (isset($_GET['error'])) {
-                        echo '<p style="color: red; margin-top: 10px;">' . $_GET['error'] . '</p>';
-                    }
-                    ?>
                 </form>
+
             </div>
         </div>
         <div class="gambarbuku-container">
