@@ -109,7 +109,7 @@
                 <strong>
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="Home.php">Beranda</a>
+                            <a class="nav-link" href="../index.php">Beranda</a>
                         </li>
                         <li class="nav-item active">
                             <a class="nav-link" href="Login.php" style="color: white;">Masuk</a>
