@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sistem informasi perpustakaan SMA Negeri 12 Bandar Lampung</title>
+    <link rel="icon" href="./Admin/favicon.ico" type="image/x-icon">
     <!-- Include Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <style>
@@ -156,8 +157,8 @@
                 style="font-family: Arial, Helvetica, sans-serif; font-size: 20px; text-decoration: none;">
                 <strong>
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="index.php" style="color: white;">Beranda</a>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.php">Beranda</a>
                         </li>
 
                         <li class="nav-item">
